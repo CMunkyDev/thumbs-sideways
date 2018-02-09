@@ -1,0 +1,32 @@
+.thank-you {
+  text-align: center;
+  font-family: 'Chango';
+  font-size: 3em;
+}
+
+.thumb-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 500px;
+  transition: 2s;
+}
+
+.thumb:hover, .thumb:active {
+  transform: rotate(-90deg);
+}
+
+.thank-you-note {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato';
+}
