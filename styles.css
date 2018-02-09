@@ -1,7 +1,8 @@
 .thank-you {
   text-align: center;
   font-family: 'Chango';
-  font-size: 3em;
+  font-size: 2em;
+  margin-bottom: 3em;
 }
 
 .thumb-wrapper {
@@ -12,13 +13,9 @@
 
 .thumb {
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   transition: 2s;
 }
-
-/*.thumb:hover {
-  transform: rotate(-90deg);
-}*/
 
 .up {
   transform: rotate(-90deg);
@@ -31,10 +28,10 @@
 .thank-you-note {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
   text-align: center;
 }
 
 p {
   font-family: 'Lato';
+  margin-top: 6em;
 }
