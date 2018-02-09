@@ -21,6 +21,17 @@ h1, p {
   transition: 2s;
 }
 
+.ass-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ass {
+  width: 90%;
+  transition: 2s;
+}
+
 .up {
   transform: rotate(-90deg);
 }
