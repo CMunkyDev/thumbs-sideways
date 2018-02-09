@@ -16,7 +16,7 @@
   transition: 2s;
 }
 
-.thumb:hover, .thumb:active {
+.thumb:hover, .thumb:focus {
   transform: rotate(-90deg);
 }
 
